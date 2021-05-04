@@ -1,0 +1,696 @@
+body {
+  margin: 0;
+}
+
+          /* HEADER CSS */
+
+.navigation {
+  text-align: right;
+  margin: 0px;
+  background-color: #B8B8FF;
+  padding-left: 0px;
+}
+
+.navigation li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+}
+
+li a{
+  text-decoration: none;
+
+}
+
+ul li a:hover{
+  background-color: #F8F7FF;
+  padding: 20px;
+  color: #9381FF;
+}
+
+  #image{
+    height: 50px;
+    width: 200px;
+    float: left;
+    padding-top: 5px;
+  }
+
+
+
+            /* BODY CSS (Index) */
+      .column{
+      float: left;
+      width: 100%
+      padding-top: 10px;
+      }
+
+      .column-1{
+        float: left;
+        width: 31.33%;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #62BFED;
+      }
+    .column-2{
+        float: left;
+        width: 31.33%;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #57B4EF;
+      }
+    .column-3{
+        float: left;
+        width: 31.33%;
+        padding-top: 10px;
+        padding-left: 15px;
+        background-color: #52AEF0;
+      }
+    .footer{
+      background-color: #4CA8F0;
+      text-align: center;
+      color: #F8F7FF;
+    }
+    #form{
+      margin-top: 10px;
+    }
+
+    .footer p{
+      padding: 5px;
+    }
+
+
+      #address{
+        margin-top:  10px;
+      }
+
+
+    #Submit{
+      background-color: #C2BBF0;
+      height: auto;
+      margin-bottom: 15px;
+      margin-top: 10px;
+      padding: 10px;
+      border: none;
+    }
+
+
+
+            /*BODY CSS (About us)*/
+
+        .beatle{
+            display: inline-block;
+            width: 100%;
+            }
+
+        .heading{
+            background-color: #79BCED;
+            text-align: center;
+            }
+
+          .John {
+            float: left;
+            width: 22%;
+            padding-right: 25px;
+            border-radius: 1px;
+            border: aqua;
+            border-style: solid;
+            margin-right: 7px;
+            margin-left: 7px;
+
+            }
+
+
+
+            .beatle .John p {
+              padding-left: 5px;
+              padding-top: 0px;
+            }
+
+            .beatle .John img {
+              padding-left: 5px;
+
+            }
+
+          .paul{
+            float: left;
+            width: 22%;
+            padding-right: 25px;
+            border-radius: 1px;
+            border: aqua;
+            border-style: solid;
+            margin-right: 7px;
+            }
+
+
+            .beatle .paul p {
+              padding-left: 5px;
+            }
+
+            .beatle .paul img {
+              padding-left: 5px;
+            }
+
+          .George{
+            float: left;
+            width: 22%;
+            padding-right: 25px;
+            border-radius: 1px;
+            border: aqua;
+            border-style: solid;
+            margin-right: 7px;
+            }
+
+            .beatle .George p {
+              padding-left: 5px;
+            }
+
+            .beatle .George img {
+              padding-left: 5px;
+            }
+
+          .Ringo{
+            float: left;
+            width: 22%;
+            padding-right: 25px;
+            border-radius: 1px;
+            border: aqua;
+            border-style: solid;
+            margin-right: 7px;
+            }
+
+            .beatle .Ringo p {
+              padding-left: 5px;
+            }
+
+            .beatle .Ringo img {
+              padding-left: 5px;
+            }
+          .clear-fix ::before{
+              content: "";
+              clear: both;
+              display: table;
+              }
+
+
+          #john-image{
+            width: 100%;
+          }
+
+          #paul-image{
+            width: 100%;
+          }
+
+          #george-image{
+            width: 100%;
+          }
+
+          #ringo-image{
+            width: 100%;
+          }
+
+
+              /* BODY CSS (Contacts) */
+
+                .contact-form{
+                    width: 50%;
+                    background-color: #F1E3F3;
+                    float: left;
+                }
+
+                .beatles-contact{
+                  height: 505px;
+                  float: left;
+                  width: 50%;
+                  background-color: #8FB8ED;
+                }
+
+                .name-form{
+                  height: 100%;
+                }
+
+                  .name-form li{
+                    list-style-type: none;
+                    display: inline-block;
+                    margin-right: 30px;
+                  }
+
+                  .email-form{
+                    height: 100%;
+                  }
+
+                  .email-form li{
+                    list-style-type: none;
+                    display: inline-block;
+                  }
+
+
+                  .message-form{
+                    height: 100%;
+                  }
+
+                  .message-form li{
+                    list-style-type: none;
+                    display: inline-block;
+                  }
+
+
+                  .additional-form{
+                    height: 100%;
+                  }
+
+                  .additional-form li{
+                    list-style-type: none;
+                    display: inline-block;
+                  }
+
+                  .submit-bar{
+                    text-align: center;
+                  }
+
+                  #submit-side{
+                    background-color: #C2BBF0;
+                    height: auto;
+                    margin-bottom: 15px;
+                    margin-top: 10px;
+                    padding: 10px;
+                    border: none;
+                  }
+
+                  .beatles-contact{
+                    text-align: center;
+                  }
+
+
+                    .contact-paul{
+                    padding-left: 10px;
+                    padding-right: 5px;
+                  }
+
+
+                  .contact-john{
+                    padding-left: 10px;
+                    padding-right: 5px;
+                  }
+
+                  .contact-george{
+                    padding-left: 10px;
+                    padding-right: 5px;
+                  }
+
+                  .contact-ringo{
+                    padding-left: 10px;
+                    padding-right: 5px;
+                  }
+
+
+              /*BODY CSS (Gallery)*/
+              .members{
+              background-image: url('../Image/gradient.png');
+              text-align: center;
+              width: 100%;
+              }
+
+              .members h2{
+                margin: 0px;
+              }
+
+
+              .frame{
+                width: 100%;
+                height: 360px;
+                }
+
+              .frame .lennon{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+              }
+
+              .frame .mccart{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+              }
+
+              .frame .harri{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+              }
+
+              .frame .starr{
+                text-align: center;
+                width: 23%;
+                margin: 5px;
+                float: left;
+              }
+
+              .albums{
+                background-image: url('../Image/gradient.png');
+                text-align: center;
+                width: 100%;
+              }
+
+              .albums h2{
+                margin: 0px;
+              }
+
+
+              /* Albums by The Beatles */
+
+              .frame-album {
+                display: inline-block;
+                width: 100%
+              }
+
+
+              .frame-album .album-1{
+                float: left;
+                width: 23%;
+                margin: 5px;
+                text-align: center;
+                height: 400px;
+              }
+
+              .frame-album .album-1 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-2{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-2 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-3{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-3 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-4{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-4 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-5{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-5 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+
+              .frame-album .album-6{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-6 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-7{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-7 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-8{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-8 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-9{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-9 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-10{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-10 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-11{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-11 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-12{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-12 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-13{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-13 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-14{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-14 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-15{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-15 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-16{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-16 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-17{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-17 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-18{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-18 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-19{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-19 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-20{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-20 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-21{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-21 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .frame-album .album-22{
+                text-align: center;
+                float: left;
+                width: 23%;
+                margin: 5px;
+                height: 400px;
+              }
+
+              .frame-album .album-22 :hover{
+                transform: scale(.5);
+                transition: 2s;
+              }
+
+              .btn{
+                background-color: #C2BBF0;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+              }
+
+              /* FOOTER CSS */
+      .footer{
+        background-color: #9381FF;
+        text-align: center;
+        color: #F8F7FF;
+      }
+      #form{
+        margin-top: 10px;
+      }
+
+      .footer p{
+        padding: 5px;
+      }
+
+
+      #address{
+        margin-top:  10px;
+      }
+      #Submit{
+        background-color: #C2BBF0;
+        height: auto;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        padding: 10px;
+        border: none;
+      }
